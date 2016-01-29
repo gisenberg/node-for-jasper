@@ -1,0 +1,17 @@
+{
+  "name": "2-remote-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start-debug": "./node_modules/.bin/node-debug src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-inspector": "^0.12.5"
+  }
+}
